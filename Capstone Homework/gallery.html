@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+    }
+
+    header, footer {
+      background-color: #502a2a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+    }
+
+    .gallery-item {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      display: block;
+    }
+
+    .caption h3 {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .caption p {
+      margin: 0;
+      color: #888;
+      font-weight: bold;
+    }
+    .Topnav {
+            overflow: hidden;
+            background-color: rgb(204, 91, 91);
+        }
+        .Topnav a {
+            float: left;
+            text-align: center;
+            color: rgb(163, 93, 65);
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .Topnav a:hover {
+            background-color: rgb(56, 19, 19);
+            color: rgb(255, 255, 255);
+        }
+        .Topnav a.active {
+            background-color: rgb(129, 69, 54);
+            color: rgb(129, 47, 9);
+         }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Our Restaurant Gallery</h1>
+    <p>Feast your eyes on our delicious menu</p>
+  </header>
+
+  <nav class="Topnav">
+    <a class="active" href="homeworkcapstone.html">Home</a>
+    <a href="about us.html">About Us</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="#">Contact Us</a>
+</nav>
+
+  <section class="gallery">
+    <div class="gallery-item">
+      <img src="trufflepasta.jpeg" alt="Truffle Pasta">
+      <div class="caption">
+        <h3>Truffle Pasta</h3>
+        <p>$18.99</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="grilled salmon.jpeg" alt="Grilled Salmon">
+      <div class="caption">
+        <h3>Grilled Salmon</h3>
+        <p>$22.50</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="lava cake.jpeg" alt="Chocolate Lava Cake">
+      <div class="caption">
+        <h3>Chocolate Lava Cake</h3>
+        <p>$8.00</p>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="diningarea.jpeg" alt="Elegant Dining Area">
+      <div class="caption">
+        <h3>Elegant Dining Area</h3>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="chef.jpeg" alt="Chef in Action">
+      <div class="caption">
+        <h3>Our Chef in Action</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gourmet Delight. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
