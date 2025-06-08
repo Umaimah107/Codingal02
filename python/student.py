@@ -1,5 +1,5 @@
 class Fifth:
-    subjs=["eng","maths","Sci"]
+    subjs = ["eng","maths","Sci"]
 
     def getMarks(self):
         m= int(input())
