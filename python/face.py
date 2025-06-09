@@ -27,7 +27,7 @@ class Face:
          left(90)
          pendown()
          circle(self.size)
-         self.goHome()    
+         self.gohome()    
 
 f1 = Face(0,0)
 f1.draw()
