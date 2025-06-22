@@ -18,5 +18,24 @@ def initial_phonebook():
         phone_book.append(temp)
     print(phone_book)
     return phone_book
-initial_phonebook()                
+pb = initial_phonebook()                
 
+def add_contact(pb):
+    dip = []
+    for i in range(len(pb[0])):
+        if i == 0:
+            dip.append(str(input("Enter name:  ")))
+        if i == 1:
+            dip.append(int(input("Enter number:  ")))
+    pb.append(dip)
+    return pb               
+
+def menu():
+    print("1.Add new contact")
+    print("2. Display contacts")
+    ch= int(input("Enter choice"))
+    if ch == 1:
+        pb = add_contact(pb)
+    if ch == 2:
+        print(pb)
+menu()            
