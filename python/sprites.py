@@ -6,7 +6,7 @@ color = (0, 0, 0)
 
 class Sprite(pygame.sprite.Sprite):
     def __init__(self, color, width, height):
-        super(). __init__
+        super(). __init__()
 
         self.image = pygame.Surface([width, height]) 
 
