@@ -3,7 +3,6 @@ from tkinter import *
 root = Tk()
 root.title("Number Multiplier")
 root.geometry("400x250")
-root.configure(bg="#fff2f2")
 
 
 lbl = Label(root, text="Enter two numbers to multiply", fg="white", bg="#c77474", height=1, width=300)
